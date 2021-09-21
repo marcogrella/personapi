@@ -1,11 +1,14 @@
 package one.digitalinnovation.personapi.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
+
 import java.util.List;
 
 @Data
@@ -32,6 +35,7 @@ public class Person implements Serializable {
     @Column(nullable = false, unique = true)
     private String cpf;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     private LocalDate birthDate;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
