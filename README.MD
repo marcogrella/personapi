@@ -1,33 +1,25 @@
 ----------------------------------------------------------------------------
 
-# Welcome!
+# Person REST - API!
 
 
 
-## I'm (SEU NOME)!
+### Esta é uma API Rest desenvolvida com Spring Boot. Nessa api foi criado um pequeno sistema para o gerenciamento de pessoas de uma empresa!
+
+----------------------------------------------------------------------------------
+
+Nesta API foram abordados tópicos como:
+
+* deploy em serviço remoto (núvem) utilizando heroku;
+* Boas práticas de programação;
+* Utilização de Interfaces como Lombok para gerar menos "boiler code" e mapstruct para o mapeamento de entidades;
+* Implementação de operações como cadastro, consulta, exclusão e atualização de pesssoas;
 
 
+## Sobre mim:
 
-:computer: I'm Front-End Developer!
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link= LINK_LINKEDIN)](https://www.linkedin.com/in/marcogrella/)
 
-:house_with_garden: I’m from Brazil.
-
-:books: I’m currently learning everything.
-
-:outbox_tray: 2021 Goals: create a new project and find a new job.
-
-
-
-## About me
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=LINK_GIT)](LINK_GIT)
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link= LINK_LINKEDIN)]( LINK_LINKEDIN)
-
-
-
-- Thanks for visiting.
-
-- Enjoy it!! o/
+- Obrigado pela visita!
 
 ----------------------------------------------------------------------------------
