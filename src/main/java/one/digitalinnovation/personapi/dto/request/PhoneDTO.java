@@ -14,12 +14,9 @@ import java.io.Serializable;
 
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
-
-public class PhoneDTO  implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+@AllArgsConstructor
+public class PhoneDTO {
 
     private Long id;
 
@@ -29,7 +26,4 @@ public class PhoneDTO  implements Serializable {
     @NotEmpty
     @Size(min = 13, max = 14)
     private String number;
-
-
 }
-
